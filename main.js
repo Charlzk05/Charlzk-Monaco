@@ -5,7 +5,7 @@ var language = "python"
 var theme = "vs-dark"
 
 require(["./vs/editor/editor.main"], () => {
-    monaco.languages.registerCompletionItemProvider(language, {
+    monaco.languages.registerCompletionItemProvider("python", {
         provideCompletionItems: function (model, position) {
             var word = model.getWordUntilPosition(position);
             var range = {
@@ -16,6 +16,21 @@ require(["./vs/editor/editor.main"], () => {
             };
             return {
                 suggestions: python(range)
+            };
+        }
+    });
+
+    monaco.languages.registerCompletionItemProvider("lua", {
+        provideCompletionItems: function (model, position) {
+            var word = model.getWordUntilPosition(position);
+            var range = {
+                startLineNumber: position.lineNumber,
+                endLineNumber: position.lineNumber,
+                startColumn: word.startColumn,
+                endColumn: word.endColumn
+            };
+            return {
+                suggestions: lua(range)
             };
         }
     });
