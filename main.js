@@ -1,8 +1,8 @@
 var editor;
 
-value = ''
-language = "lua"
-theme = "vs-dark"
+const value = ''
+const language = "lua"
+const theme = "vs-dark"
 
 require(["./vs/editor/editor.main"], () => {
     function createDependencyProposals(range) {
