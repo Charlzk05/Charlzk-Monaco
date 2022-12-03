@@ -354,6 +354,181 @@ function python(range) {
             label: "__import__",
             kind: monaco.languages.CompletionItemKind.Function,
             insertText: "__import__"
+        },
+        {
+            label: "False",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "False"
+        },
+        {
+            label: "await",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "await"
+        },
+        {
+            label: "else",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "else"
+        },
+        {
+            label: "import",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "import"
+        },
+        {
+            label: "pass",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "pass"
+        },
+        {
+            label: "None",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "None"
+        },
+        {
+            label: "break",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "break"
+        },
+        {
+            label: "except",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "except"
+        },
+        {
+            label: "in",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "in"
+        },
+        {
+            label: "raise",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "raise"
+        },
+        {
+            label: "True",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "True"
+        },
+        {
+            label: "class",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "class"
+        },
+        {
+            label: "finally",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "finally"
+        },
+        {
+            label: "is",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "is"
+        },
+        {
+            label: "return",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "return"
+        },
+        {
+            label: "and",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "and"
+        },
+        {
+            label: "continue",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "continue"
+        },
+        {
+            label: "for",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "for"
+        },
+        {
+            label: "lambda",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "lambda"
+        },
+        {
+            label: "try",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "try"
+        },
+        {
+            label: "as",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "as"
+        },
+        {
+            label: "def",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "def"
+        },
+        {
+            label: "from",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "from"
+        },
+        {
+            label: "nonlocal",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "nonlocal"
+        },
+        {
+            label: "while",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "while"
+        },
+        {
+            label: "assert",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "assert"
+        },
+        {
+            label: "del",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "del"
+        },
+        {
+            label: "global",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "global"
+        },
+        {
+            label: "not",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "not"
+        },
+        {
+            label: "with",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "with"
+        },
+        {
+            label: "async",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "async"
+        },
+        {
+            label: "elif",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "elif"
+        },
+        {
+            label: "if",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "if"
+        },
+        {
+            label: "or",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "or"
+        },
+        {
+            label: "yield",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "yield"
         }
     ];
 }

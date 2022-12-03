@@ -1,7 +1,7 @@
 var editor;
 
 var value = ''
-var language = "lua"
+var language = "python"
 var theme = "vs-dark"
 
 require(["./vs/editor/editor.main"], () => {
@@ -15,7 +15,7 @@ require(["./vs/editor/editor.main"], () => {
                 endColumn: word.endColumn
             };
             return {
-                suggestions: lua(range)
+                suggestions: python(range)
             };
         }
     });

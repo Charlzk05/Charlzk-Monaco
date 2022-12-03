@@ -1609,6 +1609,111 @@ function lua(range) {
             label: "LUA_YIELD",
             kind: monaco.languages.CompletionItemKind.Function,
             insertText: "LUA_YIELD"
+        },
+        {
+            label: "and",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "and"
+        },
+        {
+            label: "break",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "break"
+        },
+        {
+            label: "do",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "do"
+        },
+        {
+            label: "else",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "else"
+        },
+        {
+            label: "elseif",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "elseif"
+        },
+        {
+            label: "end",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "end"
+        },
+        {
+            label: "false",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "false"
+        },
+        {
+            label: "for",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "for"
+        },
+        {
+            label: "function",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "function"
+        },
+        {
+            label: "if",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "if"
+        },
+        {
+            label: "in",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "in"
+        },
+        {
+            label: "local",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "local"
+        },
+        {
+            label: "nil",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "nil"
+        },
+        {
+            label: "not",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "not"
+        },
+        {
+            label: "or",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "or"
+        },
+        {
+            label: "repeat",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "repeat"
+        },
+        {
+            label: "return",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "return"
+        },
+        {
+            label: "then",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "then"
+        },
+        {
+            label: "true",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "true"
+        },
+        {
+            label: "until",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "until"
+        },
+        {
+            label: "while",
+            kind: monaco.languages.CompletionItemKind.Keyword,
+            insertText: "while"
         }
     ];
 }
