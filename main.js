@@ -1,7 +1,7 @@
 var editor;
 
 var value = ''
-var language = "python"
+var language = "csharp"
 var theme = "vs-dark"
 
 require(["./vs/editor/editor.main"], () => {
@@ -31,6 +31,21 @@ require(["./vs/editor/editor.main"], () => {
             };
             return {
                 suggestions: lua(range)
+            };
+        }
+    });
+
+    monaco.languages.registerCompletionItemProvider("csharp", {
+        provideCompletionItems: function (model, position) {
+            var word = model.getWordUntilPosition(position);
+            var range = {
+                startLineNumber: position.lineNumber,
+                endLineNumber: position.lineNumber,
+                startColumn: word.startColumn,
+                endColumn: word.endColumn
+            };
+            return {
+                suggestions: csharp(range)
             };
         }
     });
