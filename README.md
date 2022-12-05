@@ -4,5 +4,5 @@ With AutoComplete of all Lua functions including C API and auxiliary library
 
 ### Installation
 1. ``git clone https://github.com/Charlzk05/Charlzk-Monaco.git`` or Download the source code
-2. Open index.html
+2. Open ``index.html``
 Enjoy!
