@@ -1,7 +1,7 @@
 var editor;
 
 var value = ''
-var language = "csharp"
+var language = "cpp"
 var theme = "vs-dark"
 
 require(["./vs/editor/editor.main"], () => {
@@ -46,6 +46,21 @@ require(["./vs/editor/editor.main"], () => {
             };
             return {
                 suggestions: csharp(range)
+            };
+        }
+    });
+
+    monaco.languages.registerCompletionItemProvider("cpp", {
+        provideCompletionItems: function (model, position) {
+            var word = model.getWordUntilPosition(position);
+            var range = {
+                startLineNumber: position.lineNumber,
+                endLineNumber: position.lineNumber,
+                startColumn: word.startColumn,
+                endColumn: word.endColumn
+            };
+            return {
+                suggestions: cpp(range)
             };
         }
     });
